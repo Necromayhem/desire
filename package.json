@@ -4,13 +4,10 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"dev": "gulp dev",
-		"build": "gulp build",
-		"start": "gulp serve",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "Vadym Prokopchuk",
-	"license": "ISC",
+	"author": ".",
+	"license": ".",
 	"devDependencies": {
 		"@fancyapps/fancybox": "^3.5.7",
 		"browser-sync": "^2.26.13",
