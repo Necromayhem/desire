@@ -4,11 +4,9 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"dev": "gulp",
-		"build": "gulp build",
-		"vercel-build": "npx gulp build"
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": ".",
+	"author": "Alex",
 	"license": ".",
 	"devDependencies": {
 		"@fancyapps/fancybox": "^3.5.7",
