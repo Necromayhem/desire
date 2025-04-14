@@ -849,9 +849,8 @@
 		margin-bottom: 20px;
 	}
 
-	&__social-item+.contact__social-item {
+	&__social-item + .contact__social-item {
 		padding-left: 40px;
-
 	}
 
 	&__text {
@@ -860,7 +859,6 @@
 
 	&__phone {
 		color: $default;
-
 	}
 
 	&__city {
@@ -886,7 +884,7 @@
 		width: 48%;
 
 		&::placeholder {
-			color: #A1A1A1;
+			color: #a1a1a1;
 			font-family: 'Open Sans', sans-serif;
 			font-size: 16px;
 			line-height: 27px;
@@ -904,7 +902,7 @@
 		margin-bottom: 20px;
 
 		&::placeholder {
-			color: #A1A1A1;
+			color: #a1a1a1;
 			font-family: 'Open Sans', sans-serif;
 			font-size: 16px;
 			line-height: 27px;
@@ -944,7 +942,7 @@
 	}
 
 	&__title {
-		transition: all .5s;
+		transition: all 0.5s;
 		position: absolute;
 		left: 0;
 		right: 0;
@@ -953,7 +951,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		background-color: rgba(#fff, .6);
+		background-color: rgba(#fff, 0.6);
 		color: $title;
 		@extend %title-font;
 		line-height: 22px;
