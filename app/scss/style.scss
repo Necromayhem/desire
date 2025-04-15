@@ -1162,7 +1162,8 @@
 		margin: 0 6px;
 	}
 	&__arrow--disabled {
-		display: none;
+		opacity: 0;
+		pointer-events: none;
 	}
 	&__list-num {
 		font-weight: 600;
@@ -1172,4 +1173,7 @@
 	&__list-num--active {
 		color: $title;
 	}
+}
+
+.blog-one__item {
 }
