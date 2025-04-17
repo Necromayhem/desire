@@ -5,3 +5,10 @@ $default: #5a5a5a;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
+
+@media (max-width: 540px) {
+	%title-font {
+		font-size: 28px;
+		line-height: 36px;
+	}
+}
